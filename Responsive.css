@@ -1,0 +1,297 @@
+/*Tablets Layout*/
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+	.social-area {
+		max-width: 468px;
+	}
+
+	.inner-menu {
+		background: none;
+		min-height: auto;
+	}
+
+	.inner-menu::after {
+		display: none;
+	}
+
+	.mean-container .mean-nav {
+		margin-top: 0;
+		width: 80%;
+	}
+
+	.inner-header {
+		padding: 20px 0;
+	}
+
+	.mini-menu {
+		width: 64%;
+	}
+
+	.mini-menu ul li {
+		margin-right: 12px;
+	}
+
+	.mini-menu ul li a::after {
+		right: -9px;
+	}
+
+	.social-area {
+		margin-top: 0;
+	}
+
+	#slider-area {
+		margin-top: 0;
+	}
+
+	.decs-hero {
+		flex: 50%;
+		padding-left: 40px;
+	}
+
+	.decs-hero h2 {
+		font-size: 30px;
+	}
+
+	.decs-hero p {
+		line-height: 1.5em;
+		padding: 1px;
+	}
+
+	#work-area {
+		padding: 0px 0px;
+	}
+
+	#work-area {
+		padding: 45px 0px;
+	}
+
+	.work-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.child-work {
+		flex: 1 1 33.33%;
+		padding: 15px;
+	}
+
+	.child-work h2 {
+		font-size: 15px;
+	}
+
+	.child-work p {
+		font-size: 14px;
+	}
+
+	.child-work a {
+		font-size: 13px;
+		padding: 0px;
+	}
+
+	.about-area {
+		margin-left: 0px;
+	}
+
+	.about-area img {
+		padding: 23px 0px 5px 5px;
+		margin-bottom: 15px;
+	}
+
+	.child-sercice {
+		margin-bottom: 25px;
+	}
+
+	.child-sercice .service-image {
+		width: 32%;
+		padding-top: 77px;
+	}
+
+	.child-sercice .service-text {
+		width: 68%;
+		;
+		padding-left: 10px;
+	}
+
+	.child-sercice .service-text h3 {
+		font-size: 14px;
+		margin-top: 12px;
+		margin-bottom: 0px;
+	}
+
+	.child-sercice .service-text p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		line-height: 1.4em;
+	}
+
+	.testimonial-area {
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+
+	.child-testimonial {
+		margin-bottom: 15px;
+	}
+
+	.child-testimonial h3 {
+		font-size: 16px;
+		font-weight: normal;
+		padding: 0px 0px 0px 70px;
+	}
+
+	.child-testimonial h3 span {
+		font-weight: normal;
+	}
+
+	.service-image:first-child {
+		padding-top: 24px;
+	}
+
+}
+
+/*Mobile Layout*/
+@media only screen and (min-width:200px) and (max-width:480px) {
+
+
+
+
+	.inner-top-header {
+		overflow: hidden;
+	}
+
+	.mini-menu {
+		width: 100%;
+	}
+
+	.search-area {
+    float: none;
+    width: 87%;
+    margin-top: 55px;
+}
+
+.logo-area{
+	width: 100%;
+	padding-left: 27px;
+}
+
+.social-area {
+	margin-top: 15px;
+	max-width: 100%;
+	padding-right: 33px;
+}
+
+
+.inner-slider {
+	padding-top: 15px 0px;
+}
+
+.decs-hero {
+	padding-left: 0px;
+}
+
+.inner-hero {
+	padding-top: 15px;
+}
+
+
+	.mini-menu ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		text-align: center;
+	}
+
+	.mini-menu ul li {
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		margin-right: 20px;
+	}
+
+	.mini-menu ul li a {
+		display: block;
+		color: #fff;
+		font-size: 11px;
+		text-decoration: none;
+	}
+
+	.mini-menu ul li a::after {
+		content: "";
+		width: 1px;
+		height: 12px;
+		top: 7px;
+		right: -13px;
+		background: #fff;
+		position: absolute;
+	}
+
+	.mini-menu ul li:last-child a::after {
+		display: none;
+	}
+
+	.mini-menu ul li a:hover {
+		color: #ddd;
+	}
+
+	.search-area form {
+		background: #fff;
+		border-radius: 25px;
+		float: right;
+		padding: 2%;
+		max-width: 210px;
+		width: 96%;
+	}
+
+	.search-area input {
+		border: 0px solid;
+		width: 75%;
+		padding: 1%;
+		float: left;
+		color: #000;
+	}
+
+	.child-work {
+    flex: 100%;
+		padding: 0px;
+}
+.child-work h2 {
+	font-size: 20px;
+	text-align: center;
+}
+.child-work a {
+margin-right: 10px;
+}
+
+.child-sercice {
+	width: 100%;
+}
+
+.service-area {
+	padding: 0px;
+}
+
+.child-sercice .service-image {
+	width: 32%;
+	padding-top: 20px;
+}
+
+#footer-area {
+padding: 0;
+}
+.slider-caption {
+	top: 27%;
+}
+
+.child-blog {
+	width: 74%;
+}
+
+.child-footer {
+	flex: 100%;
+}
+
+.child-footer textarea {
+	padding: 0px;
+	width: 79%;
+}
+}
